@@ -1,0 +1,8 @@
+for i
+do prog=`echo $i | sed "s/\.c//"`
+   cc -c ${prog}.c
+   ar r gtop.a ${prog}.o
+   rm ${prog}.o
+   chmod 755 gtop.a
+   echo "${prog} done"
+done
