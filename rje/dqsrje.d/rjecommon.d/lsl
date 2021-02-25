@@ -1,0 +1,7 @@
+for i in lo? jobsou? ?mit* tmp* p[crn]* pool/* *mesg msg*
+do
+	if [ -f $i ]
+	then
+		ls -l $i
+	fi
+done

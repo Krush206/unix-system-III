@@ -1,0 +1,17 @@
+~-s
+`run jpod,9221throaway,,10,500  
+`msg,n   usr=(uvac,job)
+`spit,i
+lp   output = input  :s(lp)
+end
+
+
+This job tests the UNIVAC link.
+
+% ls -l /
+~!ls -l /
+
+The test has apparently been successful.
+
+
+`fin
